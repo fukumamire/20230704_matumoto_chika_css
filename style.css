@@ -1,0 +1,69 @@
+/* 簡易的なリセットCSS　 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーの部分 coachtech */
+
+.logo {
+    color: navy;
+    margin-left: 20px;
+    /* float left で　liと並べることになる*/
+    float: left;
+}
+
+/* ナビのところを右に寄せる　色もネイビー */
+/* 親要素　Ulに対して　 */
+.flexbox {
+    /* 黒・を消す */
+    list-style: none;
+    display: flex;
+    /* 右寄せの設定 */
+    justify-content: flex-end;
+}
+
+/* li のクラス名に対しての設定 */
+.flexbox-text {
+    color: navy;
+    /* 右寄せしているので、右に余白を入れる */
+    margin-right: 20px;
+}
+
+
+.main {
+    position: relative;
+}
+
+/* メッセージの編集 */
+.text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 38px;
+    top: 250px;
+}
+
+
+
+/*青色の長方形  */
+.box {
+    /* 左に配置 */
+    position: absolute;
+    float: left;
+    top: 300px;
+    width: 750px;
+    height: 150px;
+    background: navy;
+}
+
+/* 画像自体のサイズ変更 */
+.firstview {
+    /* 画像の配置 */
+    position: absolute;
+    top: 90px;
+    left: 500px;
+    /* 画面の自体のサイズ変更 */
+    width: 500px;
+    height: 300px;
+}
