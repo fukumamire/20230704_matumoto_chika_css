@@ -63,6 +63,7 @@
     position: absolute;
     top: 90px;
     left: 500px;
+    right: 0;
     /* 画面の自体のサイズ変更 */
     width: 500px;
     height: 300px;
