@@ -31,7 +31,6 @@
     margin-right: 20px;
 }
 
-
 .main {
     position: relative;
 }
@@ -45,7 +44,6 @@
 }
 
 
-
 /*青色の長方形  */
 .box {
     /* 左に配置 */
@@ -57,12 +55,13 @@
     background: navy;
 }
 
+
 /* 画像自体のサイズ変更 */
 .firstview {
     /* 画像の配置 */
     position: absolute;
     top: 90px;
-    left: 500px;
+    /* left: 500px; */
     right: 0;
     /* 画面の自体のサイズ変更 */
     width: 500px;
