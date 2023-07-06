@@ -5,11 +5,16 @@
     padding: 0;
 }
 
-/* ヘッダーの部分 coachtech */
+/* ヘッダーの部分  　余白をつける*/
+#header {
+    padding-top: 100px;
+}
 
+/* コーチテックの文字 */
 .logo {
     color: navy;
     margin-left: 20px;
+
     /* float left で　liと並べることになる*/
     float: left;
 }
@@ -31,6 +36,11 @@
     margin-right: 20px;
 }
 
+/* liの下線削除 */
+a {
+    text-decoration: none;
+}
+
 .main {
     position: relative;
 }
@@ -39,8 +49,8 @@
 .text {
     position: absolute;
     font-weight: bold;
-    font-size: 38px;
-    top: 250px;
+    font-size: 64px;
+    top: 200px;
 }
 
 
@@ -50,8 +60,8 @@
     position: absolute;
     float: left;
     top: 300px;
-    width: 750px;
-    height: 150px;
+    width: 1200px;
+    height: 200px;
     background: navy;
 }
 
@@ -64,6 +74,6 @@
     /* left: 500px; */
     right: 0;
     /* 画面の自体のサイズ変更 */
-    width: 500px;
-    height: 300px;
+    width: 650px;
+    height: 350px;
 }
