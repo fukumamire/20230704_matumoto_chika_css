@@ -6,8 +6,8 @@
 }
 
 /* ヘッダーの部分  　余白をつける*/
-#header {
-    padding-top: 100px;
+header {
+    padding-top: 50px;
 }
 
 /* コーチテックの文字 */
