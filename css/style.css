@@ -7,16 +7,18 @@
 
 /* ヘッダーの部分  　余白をつける*/
 header {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 /* コーチテックの文字 */
 .logo {
     color: navy;
     margin-left: 20px;
-
     /* float left で　liと並べることになる*/
     float: left;
+    /* フォントの設定 */
+    font-family: 'Gorditas', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* ナビのところを右に寄せる　色もネイビー */
