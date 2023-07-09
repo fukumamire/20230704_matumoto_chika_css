@@ -16,9 +16,6 @@ header {
     margin-left: 20px;
     /* float left で　liと並べることになる*/
     float: left;
-    /* フォントの設定 */
-    font-family: 'Gorditas', cursive;
-    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* ナビのところを右に寄せる　色もネイビー */
@@ -47,12 +44,15 @@ a {
     position: relative;
 }
 
-/* メッセージの編集 */
+/* メッセージの編集 毎日を笑顔に*/
 .text {
     position: absolute;
     font-weight: bold;
     font-size: 64px;
     top: 200px;
+    /* フォントの設定 */
+    font-family: 'Gorditas', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -62,7 +62,7 @@ a {
     position: absolute;
     float: left;
     top: 300px;
-    width: 1200px;
+    width: 80%;
     height: 200px;
     background: navy;
 }
@@ -73,7 +73,7 @@ a {
     /* 画像の配置 */
     position: absolute;
     top: 90px;
-    /* left: 500px; */
+    left: 55%;
     right: 0;
     /* 画面の自体のサイズ変更 */
     width: 650px;
