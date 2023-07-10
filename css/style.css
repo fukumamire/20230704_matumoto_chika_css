@@ -52,7 +52,7 @@ a {
     position: absolute;
     font-weight: bold;
     font-size: 64px;
-    top: 600px;
+    top: 380px;
     /* フォントの設定 */
     font-family: 'Gorditas', cursive;
     font-family: 'Noto Sans JP', sans-serif;
@@ -64,7 +64,7 @@ a {
     /* 左に配置 */
     position: absolute;
     float: left;
-    top: 700px;
+    top: 480px;
     width: 80%;
     height: 200px;
     background: navy;
@@ -76,7 +76,7 @@ a {
 .firstview {
     /* 画像の配置 */
     position: absolute;
-    top: 500px;
+    top: 270px;
     left: 56%;
     right: 0;
     /* 画面の自体のサイズ変更 */
