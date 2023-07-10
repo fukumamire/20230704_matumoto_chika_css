@@ -12,6 +12,8 @@ header {
 
 /* コーチテックの文字 */
 .logo {
+    font-size: 20px;
+    font-weight: bold;
     color: navy;
     margin-left: 20px;
     /* float left で　liと並べることになる*/
@@ -21,6 +23,7 @@ header {
 /* ナビのところを右に寄せる　色もネイビー */
 /* 親要素　Ulに対して　 */
 .flexbox {
+    font-size: 18px;
     /* 黒・を消す */
     list-style: none;
     display: flex;
@@ -49,7 +52,7 @@ a {
     position: absolute;
     font-weight: bold;
     font-size: 64px;
-    top: 200px;
+    top: 600px;
     /* フォントの設定 */
     font-family: 'Gorditas', cursive;
     font-family: 'Noto Sans JP', sans-serif;
@@ -61,18 +64,19 @@ a {
     /* 左に配置 */
     position: absolute;
     float: left;
-    top: 300px;
+    top: 700px;
     width: 80%;
     height: 200px;
     background: navy;
 }
 
 
+
 /* 画像自体のサイズ変更 */
 .firstview {
     /* 画像の配置 */
     position: absolute;
-    top: 90px;
+    top: 500px;
     left: 56%;
     right: 0;
     /* 画面の自体のサイズ変更 */
