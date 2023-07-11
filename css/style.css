@@ -3,6 +3,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
+}
+
+/* 右の余白を消す？？　body 全体にかけたみたけれど・・・ */
+.wrap {
+    overflow: hidden;
 }
 
 /* ヘッダーの部分  　余白をつける*/
@@ -82,4 +88,5 @@ a {
     /* 画面の自体のサイズ変更 */
     width: 650px;
     height: 350px;
+
 }
