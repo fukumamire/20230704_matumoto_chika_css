@@ -71,6 +71,8 @@ a {
     position: absolute;
     float: left;
     top: 480px;
+    /*main=画面幅？から２０％右にすると右から右が２０％余白になる？  */
+    right: 20%;
     width: 80%;
     height: 200px;
     background: navy;
@@ -83,8 +85,8 @@ a {
     /* 画像の配置 */
     position: absolute;
     top: 270px;
+    /* left: 500px;  ←絶対値にすると固定されブラウザの横幅を変えても大きさが変わらない*/
     left: 56%;
-
     /* 画面の自体のサイズ変更 */
     width: 650px;
     height: 350px;
