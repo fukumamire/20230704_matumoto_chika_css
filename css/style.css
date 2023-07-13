@@ -58,9 +58,8 @@ a {
     position: absolute;
     font-weight: bold;
     font-size: 64px;
-    /* top: 380px; */
     /* topを絶対値（固定）ではなく画面の高さの４４％の位置に設定 */
-    top: 44wh;
+    top: 44vh;
     /* フォントの設定 */
     font-family: 'Gorditas', cursive;
     font-family: 'Noto Sans JP', sans-serif;
@@ -95,5 +94,4 @@ a {
     /*画像を画面幅の４０％にした。right:0;の設定により画面の右端から４０％幅の画像になる */
     width: 40vw;
     height: 350px;
-
 }
